@@ -7,7 +7,7 @@
 
 /* Header e navegação */
 header {
-    background-color: #222;
+    background-color: #e0b909;
 }
 
 .navbar {
@@ -51,7 +51,7 @@ header {
 }
 
 .nav-list li a:hover {
-    color: #f0c040;
+    color: #9b1616;
 }
 
 /* Swiper */
@@ -111,14 +111,25 @@ header {
     background-color: #007bff;
 }
 
-h2{
-    text-align: left;
-    padding: 20px;
-
+.swiper-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem; /* opcional */
+    padding: 0 20px;      /* opcional */
 }
 
-a{
-    text-align: right;
+.swiper-header a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.swiper-header a:hover {
+    color: #0056b3;
+    text-decoration: underline;
 }
 
 /* Responsivo */
